@@ -9,12 +9,14 @@ import HeadingTertiary from './components/HeadingTertiary.vue';
 import Composition from './components/Composition.vue';
 import FeatureBox from './components/FeatureBox.vue';
 import Card from './components/Card.vue';
+import Story from './components/Story.vue';
 
 Vue.component('heading-secondary', HeadingSecondary);
 Vue.component('heading-tertiary', HeadingTertiary);
 Vue.component('composition', Composition);
 Vue.component('feature-box', FeatureBox);
 Vue.component('card', Card);
+Vue.component('story', Story);
 
 Vue.config.productionTip = false
 
