@@ -20,6 +20,6 @@
 
 <script>
 	export default {
-		name: "Header"
+		name: "HeaderSection"
 	};
 </script>
