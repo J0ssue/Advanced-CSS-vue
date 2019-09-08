@@ -10,6 +10,7 @@ import Composition from './components/Composition.vue';
 import FeatureBox from './components/FeatureBox.vue';
 import Card from './components/Card.vue';
 import Story from './components/Story.vue';
+import BGVideo from './components/BGVideo.vue';
 
 Vue.component('heading-secondary', HeadingSecondary);
 Vue.component('heading-tertiary', HeadingTertiary);
@@ -17,6 +18,7 @@ Vue.component('composition', Composition);
 Vue.component('feature-box', FeatureBox);
 Vue.component('card', Card);
 Vue.component('story', Story);
+Vue.component('background-video', BGVideo);
 
 Vue.config.productionTip = false
 
