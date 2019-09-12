@@ -10,6 +10,8 @@
 			<tours-section></tours-section>
 			<!-- STORIES SECTION -->
 			<stories-section></stories-section>
+			<!-- BOOKING SECTION -->
+			<booking-section></booking-section>
 		</main>
 	</div>
 </template>
@@ -20,13 +22,15 @@
 	import Feature from "@/sections/home/Feature";
 	import Tours from "@/sections/home/Tours";
 	import Stories from "@/sections/home/Stories";
+	import Booking from "@/sections/home/Booking";
 	export default {
 		components: {
 			"header-section": Header,
 			"about-section": About,
 			"feature-section": Feature,
 			"tours-section": Tours,
-			"stories-section": Stories
+			"stories-section": Stories,
+			"booking-section": Booking
 		},
 		name: "Home"
 	};

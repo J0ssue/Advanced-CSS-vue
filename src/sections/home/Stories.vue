@@ -6,7 +6,6 @@
 				text="We make people genuinely happy"
 			></heading-secondary>
 		</header>
-		<div class="u-center-text u-margin-bottom-huge">
 		<div class="row" v-for="story in stories" :key="story.avatar">
 			<story
 				:caption="story.caption"
